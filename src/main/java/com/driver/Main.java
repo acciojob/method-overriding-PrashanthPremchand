@@ -15,8 +15,8 @@ public class Main {
 
     public static void main(String[] args) {
         B b = new B();
-        b.meth();
+        System.out.println(b.meth());
         B b1 = new B();
-        b1.meth();
+        System.out.println(b1.meth());
     }
 }
